@@ -22,8 +22,7 @@ class HelloWorldAction : AnAction() {
         label.setForeground(getRandomColor())
         closeButton.setBorderPainted(false);
         randColorButton.setBorderPainted(false)
-//        closeButton.setFocusPainted(false);
-//        closeButton.setContentAreaFilled(false);
+
 
         label.setFont(Font("Garamond", Font.BOLD, 30))
 
@@ -42,7 +41,7 @@ class HelloWorldAction : AnAction() {
         frame.add(buttonPanel, BorderLayout.SOUTH)
 
 
-        // Set background color of the frame
+
         frame.contentPane.background = JBColor.BLUE
 
         frame.defaultCloseOperation = JFrame.EXIT_ON_CLOSE
