@@ -1,0 +1,7 @@
+Most important:
+-read well : upload archive = upload zip of the final build(?), more attention to details
+-testing : make tests for everything even if not required
+-code : do not comment out parts of the code, leave only well documented code
++code : do more than required even if not specified
+
+full response in the pictures
